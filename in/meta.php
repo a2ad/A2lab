@@ -1,5 +1,5 @@
-<meta name="description" content="Projetos internos da equipe de desenvolvimento da A2 Comunicação">
-<meta name="keywords" content=""> 
+<meta name="description" content="Bem-vindo ao A2Lab, espaço dedicado à criação, edição e desenvolvimento de soluções e ferramentas on-line. Mantido pelo time de desenvolvimento da A2 Comunicação. ">
+<meta name="keywords" content="projeto, produto, serviço, criação, ideia, recurso, pensamento, solução, conceito, informação, a2, comunicação"> 
 <meta name="author" content="A2 Comunicação">
 <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1">
 
