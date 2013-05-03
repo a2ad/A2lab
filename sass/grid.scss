@@ -1,0 +1,109 @@
+/* ==========================================================================
+   Grid
+   ========================================================================== */
+   body {
+      width: 100%;
+      @include clearfix();
+   }
+
+   /* Calculo grid
+      ========================================================================== */
+      /* Número de colunas */
+      $columns: 12;
+      /* Largura das colunas */
+      $column-width: 60;
+      /* Largura dos espaços entre as colunas */
+      $gutter-width: 20;
+
+      /*
+       * Grid fluido / fixo
+       *    Fluido: $total-width: 100%;
+       *    Fixo:   $total-width: gridsystem-width($columns); 
+       */
+      $total-width: 100%;
+
+   /* Geral
+      ========================================================================== */
+      *,
+      *:before,
+      *:after {
+         -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+                 box-sizing: border-box;
+      }
+
+      /* Correções para IE7
+      ========================================================================== */
+      .ie7 *,
+      .ie7 *:before,
+      .ie7 *:after { behavior: url(/css/boxsizing.htc); }
+
+      img, 
+      object,
+      embed { max-width: 100%; }
+
+      img { height: auto; }
+
+   @media only screen {
+      .container {
+         padding-left: 10px;
+         padding-right: 10px;
+      }
+
+      .row {
+         width: 100%;
+         @include clearfix();
+         margin: 0 auto;
+      }
+
+   }
+
+   /*
+    * CSS adaptado para dispositivos com resoluções maiores que 767px
+    *    Tablets e desktops
+    */
+
+   @media only screen and (min-width: 768px) {
+
+      /* Largura máximo do Grid */
+      .row { max-width: 960px; }
+
+      /* Larguras grid
+         ========================================================================== */
+         .onecol { @include column(1); }
+         .twocol { @include column(2); }
+         .threecol { @include column(3); }
+         .fourcol { @include column(4); }
+         .fivecol { @include column(5); }
+         .sixcol { @include column(6); }
+         .sevencol { @include column(7); }
+         .eightcol { @include column(8); }
+         .ninecol { @include column(9); }
+         .tencol { @include column(10); }
+         .elevencol { @include column(11); }
+         .twelvecol { @include column(12); }
+
+      /* Offsets
+         ========================================================================== */
+         .offset-one { @include push(1); }
+         .offset-two { @include push(2); }
+         .offset-three { @include push(3); }
+         .offset-four { @include push(4); }
+         .offset-five { @include push(5); }
+         .offset-six { @include push(6); }
+         .offset-seven { @include push(7); }
+         .offset-eight { @include push(8); }
+         .offset-nine { @include push(9); }
+         .offset-ten { @include push(10); }
+         .offset-eleven { @include push(11); }
+         .offset-twelve { @include push(12); }
+
+      /* Centralizando
+         ========================================================================== */
+         .centered {
+            display: block;
+            float: none;
+            margin-left: auto;
+            margin-right: auto;
+         }
+   }

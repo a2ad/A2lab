@@ -1,0 +1,81 @@
+/* ==========================================================================
+   Navegacao
+   ========================================================================== */
+   
+   @media only screen {
+      
+      /* Header
+         ========================================================================== */
+         .header {
+            display: block;
+            width: 100%;
+            background-color: #fff;
+            height: 130px;
+
+            -webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.3);
+                    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.3);
+         }
+
+         .logo {
+            position: relative;
+            top: 10px;
+            width: 200px;
+            height: 112px;
+            margin: 0 auto;
+            color: #fff;
+         }
+
+         .logo > i { position: absolute; }
+
+         .ico-a2 {
+            left: 19px;
+            top: 19px;
+         }
+
+         .logo > span {
+            position: absolute;
+            right: 0;
+            top: 30px;
+            font-size: 38px;
+            color: #666;
+         }
+
+      /* Footer
+         ========================================================================== */
+         .footer {
+            margin-top: 30px;
+            display: block;
+            padding: 15px 0;
+         }
+
+         .footer .row {
+            border-top: solid 1px #ddd;
+            padding-top: 10px;
+         }
+
+         .footer a {
+            @include transition(all, 0.25s, ease);
+         }
+
+      /* Menu
+         ========================================================================== */
+
+   }
+
+   /*
+    * CSS adaptado para dispositivos com resoluções maiores que 767px
+    *    Tablets e desktops
+    */
+
+   @media only screen and (min-width: 768px) {
+      
+      /* Header
+         ========================================================================== */
+
+      /* Footer
+         ========================================================================== */
+
+      /* Menu
+         ========================================================================== */
+
+   }

@@ -1,0 +1,82 @@
+/* ==========================================================================
+   Layout
+   ========================================================================== */
+   
+   @media only screen {
+      
+      body { background-color: #f5f5f5; }
+
+      .main {
+         margin-top: 15px;
+         margin-bottom: 15px;
+      }
+
+      .project {
+         position: relative;
+         background-color: #fff;
+         border: solid 1px #ddd;
+         padding: 20px 10px;
+         text-align: center;
+         @include column(4);
+         margin-bottom: 20px;
+         @include border-radius(4px);
+         -webkit-box-shadow: 0 8px 5px -6px #999;
+            -moz-box-shadow: 0 8px 5px -6px #999;
+                 box-shadow: 0 8px 5px -6px #999;
+      }
+
+      .project:hover { border: solid 1px #bbb; }
+
+      .project h2 {
+         margin: 0 0 10px 0;
+         font-weight: bold;
+         color: #666;
+      }
+
+      /* Buttons
+         ========================================================================== */
+         a.btn {
+            position: relative;
+            color: #fff;
+            text-decoration: none;
+            background-color: $blue;
+            font-weight: bold;
+            font-size: 12px;
+            display: inline-block;
+            padding: 4px 10px;
+            @include border-radius(8px);
+            @include box-shadow(0px 9px 0px $darkBlue);
+            margin: 0 0 10px 7px;
+            width: auto;
+            text-align: center;
+            text-shadow: 1px 1px 0px #023858;
+            @include transition(all, 0.1s, ease);
+         }
+
+         .project h2 + .btn { margin-left: 0; }
+
+         a.btn i {
+            margin: 0 5px 0 0;
+            font-size: 18px;
+            font-weight: normal;
+            text-shadow: 1px 1px 0px #023858;
+         }
+
+         a.btn:hover { background-color: #045f95; }
+
+         a.btn:active {
+            @include box-shadow(0px 5px 0px $darkBlue);
+            position: relative;
+            top: 3px;
+         }
+
+   }
+
+   /*
+    * CSS adaptado para dispositivos com resoluções maiores que 767px
+    *    Tablets e desktops
+    */
+
+   @media only screen and (min-width: 768px) {
+
+   }
