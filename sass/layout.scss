@@ -71,6 +71,45 @@
             top: 3px;
          }
 
+      /* Alert
+         ========================================================================== */
+         .alert {
+            position: relative;
+            padding: 10px;
+            background-color: #FFF6BF;
+            border-bottom: 1px solid #FFD324;            
+            text-align: center;
+         }
+
+         .alert i {
+            font-size: 20px;
+            vertical-align: middle;
+         }
+
+         .alert p {
+            margin: 0;
+            text-align: center;
+            font-size: 12px;
+         }
+
+         .alert i,
+         .alert p {
+            display: inline-block;
+            color: #514721;
+         }
+
+         .close {
+            cursor: pointer;
+            position: absolute;
+            z-index: 1;
+            right: 10px;
+            top: 10px;
+            font-size: 14px;
+            color: #514721;
+         }
+
+         .close:hover { color: #000; }
+
    }
 
    /*

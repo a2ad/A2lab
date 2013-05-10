@@ -10,7 +10,7 @@
 </head>
 <body>
    <!-- Header -->
-   <?php include('in/header.php');?>
+   <?php include('in/header.php');?>   
    <div rola="main" class="container main">
       <div class="row projects">
          <section class="project">
