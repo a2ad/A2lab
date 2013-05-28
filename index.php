@@ -31,7 +31,12 @@
             <a href="https://github.com/williancarminato/jquery-editable/archive/master.zip" class="btn"><span><i class="icon-download"></i>Download</span></a>
             <a target="_blank" href="https://github.com/williancarminato/jquery-editable" class="btn"><span><i class="icon-github"></i>Github</span></a>
          </section>
-
+         <section class="project">
+            <h2>Font-Size</h2>
+            <a target="_blank" href="http://airton.github.io/Font-Size/" class="btn"><span><i class="icon-laptop"></i>Demo</span></a>
+            <a href="https://github.com/airton/Font-Size/archive/master.zip" class="btn"><span><i class="icon-download"></i>Download</span></a>
+            <a target="_blank" href="https://github.com/airton/Font-Size" class="btn"><span><i class="icon-github"></i>Github</span></a>
+         </section>
       </div>
    </div>
 
