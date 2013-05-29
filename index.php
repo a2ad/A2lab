@@ -37,6 +37,12 @@
             <a href="https://github.com/airton/Font-Size/archive/master.zip" class="btn"><span><i class="icon-download"></i>Download</span></a>
             <a target="_blank" href="https://github.com/airton/Font-Size" class="btn"><span><i class="icon-github"></i>Github</span></a>
          </section>
+         <section class="project">
+            <h2>Vídeo Destacado</h2>
+            <a target="_blank" href="http://wordpress.org/plugins/video-destacado/" class="btn"><span><i class="icon-laptop"></i>Demo</span></a>
+            <a href="https://github.com/airton/video-destacado/archive/master.zip" class="btn"><span><i class="icon-download"></i>Download</span></a>
+            <a target="_blank" href="https://github.com/airton/video-destacado" class="btn"><span><i class="icon-github"></i>Github</span></a>
+         </section>
       </div>
    </div>
 
