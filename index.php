@@ -43,6 +43,12 @@
             <a href="https://github.com/airton/video-destacado/archive/master.zip" class="btn"><span><i class="icon-download"></i>Download</span></a>
             <a target="_blank" href="https://github.com/airton/video-destacado" class="btn"><span><i class="icon-github"></i>Github</span></a>
          </section>
+         <section class="project">
+            <h2>jQuery Accordion</h2>
+            <a target="_blank" href="http://raphaelfabeni.github.io/accordion/" class="btn"><span><i class="icon-laptop"></i>Demo</span></a>
+            <a href="https://github.com/raphaelfabeni/accordion/archive/master.zip" class="btn"><span><i class="icon-download"></i>Download</span></a>
+            <a target="_blank" href="https://github.com/raphaelfabeni/accordion" class="btn"><span><i class="icon-github"></i>Github</span></a>
+         </section>
       </div>
    </div>
 
