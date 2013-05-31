@@ -1,4 +1,4 @@
-a2lab
+A2Lab
 =====
 
-A2 Lab - Projetos internos da equipe de desenvolvimento da A2
+Site que hospeda os projetos experimentais da equipe de desenvolvimento da A2 Comunicação.
