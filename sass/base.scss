@@ -39,10 +39,10 @@
               border-radius: $radius;
    }
 
-   @mixin box-shadow($shadow1) {
-      -webkit-box-shadow: $shadow1;
-         -moz-box-shadow: $shadow1;
-              box-shadow: $shadow1;
+   @mixin box-shadow($parameters) {
+      -webkit-box-shadow: $parameters;
+         -moz-box-shadow: $parameters;
+              box-shadow: $parameters;
                
    }
 
@@ -63,12 +63,19 @@
 /* ==========================================================================
    Base
    ========================================================================== */
-   ::selection,
+   ::selection {
+      background: #666;
+      text-shadow: none;
+      color: #fff;
+   }
+
    ::-moz-selection {
       background: #666;
       text-shadow: none;
       color: #fff;
    }
+
+   * { @include box-sizing(); }
 
 /* ==========================================================================
    Classes Auxiliares

@@ -4,15 +4,15 @@
 <!--[if IE 9]>    <html class="no-js ie9" lang="pt-br">     <![endif]-->
 <head>
    <meta charset="utf-8">
-   <title>A2 Lab</title>
+   <title>A2lab</title>
    <?php include('in/meta.php');?>
    <?php include('in/estilos.php');?>
 </head>
 <body>
    <!-- Header -->
    <?php include('in/header.php');?>   
-   <div rola="main" class="container main">
-      <div class="row projects">
+   <div role="main" class="container main">
+      <div class="row">
          <section class="project">
             <h2>CD Framework</h2>
             <a target="_blank" href="http://lab.a2comunicacao.com.br/cdframework/" class="btn"><i class="icon-laptop"></i>Demo</a>
@@ -25,12 +25,14 @@
             <a href="https://github.com/a2comunicacao/wp-plugins/archive/master.zip" class="btn"><span><i class="icon-download"></i>Download</span></a>
             <a target="_blank" href="https://github.com/a2comunicacao/wp-plugins" class="btn"><span><i class="icon-github"></i>Github</span></a>
          </section>
-         <section class="project">
+         <section class="project last">
             <h2>jQuery Editable</h2>
             <a target="_blank" href="http://lab.a2comunicacao.com.br/jquery-editable/" class="btn"><span><i class="icon-laptop"></i>Demo</span></a>
             <a href="https://github.com/williancarminato/jquery-editable/archive/master.zip" class="btn"><span><i class="icon-download"></i>Download</span></a>
             <a target="_blank" href="https://github.com/williancarminato/jquery-editable" class="btn"><span><i class="icon-github"></i>Github</span></a>
          </section>
+      </div>
+      <div class="row">
          <section class="project">
             <h2>Font-Size</h2>
             <a target="_blank" href="http://airton.github.io/Font-Size/" class="btn"><span><i class="icon-laptop"></i>Demo</span></a>
@@ -43,7 +45,7 @@
             <a href="https://github.com/airton/video-destacado/archive/master.zip" class="btn"><span><i class="icon-download"></i>Download</span></a>
             <a target="_blank" href="https://github.com/airton/video-destacado" class="btn"><span><i class="icon-github"></i>Github</span></a>
          </section>
-         <section class="project">
+         <section class="project last">
             <h2>jQuery Accordion</h2>
             <a target="_blank" href="http://raphaelfabeni.github.io/accordion/" class="btn"><span><i class="icon-laptop"></i>Demo</span></a>
             <a href="https://github.com/raphaelfabeni/accordion/archive/master.zip" class="btn"><span><i class="icon-download"></i>Download</span></a>
