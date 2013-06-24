@@ -52,6 +52,14 @@
             <a target="_blank" href="https://github.com/raphaelfabeni/accordion" class="btn"><span><i class="icon-github"></i>Github</span></a>
          </section>
       </div>
+      <div class="row">
+         <section class="project">
+            <h2>CSS3 Transition Snippets</h2>
+            <a target="_blank" href="http://raphaelfabeni.github.io/transitionSnippets" class="btn"><span><i class="icon-laptop"></i>Demo</span></a>
+            <a href="https://github.com/raphaelfabeni/transitionSnippets/archive/master.zip" class="btn"><span><i class="icon-download"></i>Download</span></a>
+            <a target="_blank" href="https://github.com/raphaelfabeni/transitionSnippets" class="btn"><span><i class="icon-github"></i>Github</span></a>
+         </section>
+      </div>
    </div>
 
    <!-- Footer -->
