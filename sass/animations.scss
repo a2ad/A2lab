@@ -1,76 +1,28 @@
 /* ==========================================================================
    Animations
    ========================================================================== */
-   @keyframes headerMove {
-      0% { height: 0; }
-      100% { height: 140px; }
-   }
-
-   @-webkit-keyframes headerMove {
-      0% { height: 0; }
-      100% { height: 140px; }
-   }
-
-   @-moz-keyframes headerMove {
-      0% { height: 0; }
-      100% { height: 140px; }
-   }
-
-   @-o-keyframes headerMove {
-      0% { height: 0; }
-      100% { height: 140px; }
-   }
-
-   @-ms-keyframes headerMove {
-      0% { height: 0; }
-      100% { height: 140px; }
-   }
-
-   .header {
-      -webkit-animation: headerMove 1s ease-in-out paused both;
-         -moz-animation: headerMove 1s ease-in-out paused both;
-          -ms-animation: headerMove 1s ease-in-out paused both;
-           -o-animation: headerMove 1s ease-in-out paused both;
-              animation: headerMove 1s ease-in-out paused both;
-   }
-
 
    /* Logo - Circle
       ========================================================================== */
-      .ico-circle {
-         -webkit-animation: bounceIn 2s ease-in-out both;
-            -moz-animation: bounceIn 2s ease-in-out both;
-             -ms-animation: bounceIn 2s ease-in-out both;
-              -o-animation: bounceIn 2s ease-in-out both;
-                 animation: bounceIn 2s ease-in-out both;
-      }
+      .ico-circle { @include animation(bounceIn 2s ease-in-out both); }
 
    /* A2
       ========================================================================== */
-      .ico-a2 {
-         -webkit-animation: fadeInDown 1s ease-out 1s both;
-            -moz-animation: fadeInDown 1s ease-out 1s both;
-             -ms-animation: fadeInDown 1s ease-out 1s both;
-              -o-animation: fadeInDown 1s ease-out 1s both;
-                 animation: fadeInDown 1s ease-out 1s both;
-      }
+      .ico-a2 { @include animation(fadeInDown 1s ease-out 1s both); }
 
    /* Lab
       ========================================================================== */
-      .logo > span {
-         -webkit-animation: fadeInLeft 1s ease-out 1s both;
-            -moz-animation: fadeInLeft 1s ease-out 1s both;
-             -ms-animation: fadeInLeft 1s ease-out 1s both;
-              -o-animation: fadeInLeft 1s ease-out 1s both;
-                 animation: fadeInLeft 1s ease-out 1s both;
-      }
+      .logo > span { @include animation(fadeInLeft 1s ease-out 1s both); }
 
    /* Project
       ========================================================================== */
-      .project {
-         -webkit-animation: fadeInUp 0.75s ease-out 1.5s both;
-            -moz-animation: fadeInUp 0.75s ease-out 1.5s both;
-             -ms-animation: fadeInUp 0.75s ease-out 1.5s both;
-              -o-animation: fadeInUp 0.75s ease-out 1.5s both;
-                 animation: fadeInUp 0.75s ease-out 1.5s both;
-      }
+      //.project { @include animation(fadeInUp 0.75s ease-out 1.5s both); }
+      .project-01 { @include animation(fadeInUp 0.75s ease-out 1.5s both); }
+      .project-02 { @include animation(fadeInUp 0.75s ease-out 1.75s both); }
+      .project-03 { @include animation(fadeInUp 0.75s ease-out 2s both); }
+      .project-04 { @include animation(fadeInUp 0.75s ease-out 2.25s both); }
+      .project-05 { @include animation(fadeInUp 0.75s ease-out 2.5s both); }
+      .project-06 { @include animation(fadeInUp 0.75s ease-out 2.75s both); }
+      .project-07 { @include animation(fadeInUp 0.75s ease-out 3s both); }
+      .project-08 { @include animation(fadeInUp 0.75s ease-out 3.25s both); }
+      .project-09 { @include animation(fadeInUp 0.75s ease-out 3.5s both); }

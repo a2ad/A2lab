@@ -13,19 +13,19 @@
    <?php include('in/header.php');?>   
    <div role="main" class="container main">
       <div class="row">
-         <section class="project">
+         <section class="project project-01">
             <h2>CD Framework</h2>
             <a target="_blank" href="http://lab.a2comunicacao.com.br/cdframework/" class="btn"><i class="icon-laptop"></i>Demo</a>
             <a href="https://github.com/a2comunicacao/cdframework/archive/master.zip" class="btn"><i class="icon-download"></i>Download</a>
             <a target="_blank" href="https://github.com/a2comunicacao/cdframework" class="btn"><i class="icon-github"></i>Github</a>
          </section>
-         <section class="project">
+         <section class="project project-02">
             <h2>WP Plugins</h2>
             <a target="_blank" href="http://lab.a2comunicacao.com.br/wp-plugins/" class="btn"><span><i class="icon-laptop"></i>Demo</span></a>
             <a href="https://github.com/a2comunicacao/wp-plugins/archive/master.zip" class="btn"><span><i class="icon-download"></i>Download</span></a>
             <a target="_blank" href="https://github.com/a2comunicacao/wp-plugins" class="btn"><span><i class="icon-github"></i>Github</span></a>
          </section>
-         <section class="project last">
+         <section class="project last project-03">
             <h2>jQuery Editable</h2>
             <a target="_blank" href="http://lab.a2comunicacao.com.br/jquery-editable/" class="btn"><span><i class="icon-laptop"></i>Demo</span></a>
             <a href="https://github.com/williancarminato/jquery-editable/archive/master.zip" class="btn"><span><i class="icon-download"></i>Download</span></a>
@@ -33,19 +33,19 @@
          </section>
       </div>
       <div class="row">
-         <section class="project">
+         <section class="project project-04">
             <h2>Font-Size</h2>
             <a target="_blank" href="http://airton.github.io/Font-Size/" class="btn"><span><i class="icon-laptop"></i>Demo</span></a>
             <a href="https://github.com/airton/Font-Size/archive/master.zip" class="btn"><span><i class="icon-download"></i>Download</span></a>
             <a target="_blank" href="https://github.com/airton/Font-Size" class="btn"><span><i class="icon-github"></i>Github</span></a>
          </section>
-         <section class="project">
+         <section class="project project-05">
             <h2>Vídeo Destacado</h2>
             <a target="_blank" href="http://wordpress.org/plugins/video-destacado/" class="btn"><span><i class="icon-laptop"></i>Demo</span></a>
             <a href="https://github.com/airton/video-destacado/archive/master.zip" class="btn"><span><i class="icon-download"></i>Download</span></a>
             <a target="_blank" href="https://github.com/airton/video-destacado" class="btn"><span><i class="icon-github"></i>Github</span></a>
          </section>
-         <section class="project last">
+         <section class="project last project-06">
             <h2>jQuery Accordion</h2>
             <a target="_blank" href="http://raphaelfabeni.github.io/accordion/" class="btn"><span><i class="icon-laptop"></i>Demo</span></a>
             <a href="https://github.com/raphaelfabeni/accordion/archive/master.zip" class="btn"><span><i class="icon-download"></i>Download</span></a>
@@ -53,17 +53,23 @@
          </section>
       </div>
       <div class="row">
-         <section class="project">
+         <section class="project project-07">
             <h2>CSS3 Transition Snippets</h2>
             <a target="_blank" href="http://raphaelfabeni.github.io/transitionSnippets" class="btn"><span><i class="icon-laptop"></i>Demo</span></a>
             <a href="https://github.com/raphaelfabeni/transitionSnippets/archive/master.zip" class="btn"><span><i class="icon-download"></i>Download</span></a>
             <a target="_blank" href="https://github.com/raphaelfabeni/transitionSnippets" class="btn"><span><i class="icon-github"></i>Github</span></a>            
          </section>
-         <section class="project">
+         <section class="project project-08">
             <h2>Twitter API</h2>
             <a target="_blank" href="http://lab.a2comunicacao.com.br/twitter-api/" class="btn"><span><i class="icon-laptop"></i>Demo</span></a>
             <a href="http://lab.a2comunicacao.com.br/twitter-api/twitterfeed.min.js" class="btn"><span><i class="icon-download"></i>Download</span></a>
             <a target="_blank" href="https://github.com/airton/twitter-api" class="btn"><span><i class="icon-github"></i>Github</span></a>
+         </section>
+         <section class="project last project-09">
+            <h2>WP samples</h2>
+            <a target="_blank" href="http://raphaelfabeni.github.io/wp-samples/" class="btn"><span><i class="icon-laptop"></i>Demo</span></a>
+            <a href="https://github.com/raphaelfabeni/wp-samples/archive/gh-pages.zip" class="btn"><span><i class="icon-download"></i>Download</span></a>
+            <a target="_blank" href="https://github.com/raphaelfabeni/wp-samples/tree/gh-pages" class="btn"><span><i class="icon-github"></i>Github</span></a>
          </section>
       </div>
    </div>
