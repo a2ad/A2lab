@@ -69,7 +69,7 @@
             <h2>WP samples</h2>
             <a target="_blank" href="http://raphaelfabeni.github.io/wp-samples/" class="btn"><span><i class="icon-laptop"></i>Demo</span></a>
             <a href="https://github.com/raphaelfabeni/wp-samples/archive/gh-pages.zip" class="btn"><span><i class="icon-download"></i>Download</span></a>
-            <a target="_blank" href="https://github.com/raphaelfabeni/wp-samples/tree/gh-pages" class="btn"><span><i class="icon-github"></i>Github</span></a>
+            <a target="_blank" href="https://github.com/raphaelfabeni/wp-samples/" class="btn"><span><i class="icon-github"></i>Github</span></a>
          </section>
       </div>
    </div>
